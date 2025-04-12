@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ensure Clerk UI isn't hidden */
+.clerk-signin {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
 textarea::-webkit-resizer { display: none; }

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Avoid any overrides that might hide Clerk */
+.clerk-signin {
+    display: block !important;
+  }
